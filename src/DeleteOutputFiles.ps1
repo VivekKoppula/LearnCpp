@@ -5,3 +5,7 @@ $files = get-childitem -path . -file -recurse -include ('*.exe', '*.pdb', '*.ilk
 ""
 "Performing delete."
 $files | Remove-Item
+
+"Deleting bin and obj folders..."
+Get-ChildItem .\ -include bin,obj -Recurse | ForEach-Object ($_) { Remove-Item $_.FullName -Force -Recurse }
+
