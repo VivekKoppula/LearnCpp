@@ -9,7 +9,7 @@
 std::cout << "n1 + 2  : " << (n1 + 2) << std::endl;
 ```
 
-The compiler will try to convert int 2 to the number using the ctor of the number.
+The compiler will try to implicitly convert integer 2 to the number using the ctor of the number.
 
 ```cpp
 Number(int value );
@@ -45,9 +45,9 @@ explicit operator double()const{
 }
 ```
 
-So to make it work, make one of those two into implicit. Then it will work.
+So to make it work, make one of those two into implicit by removing the explicti key word. Then it will work.
 
-
+3. Finally note here that the + operator is a non member function.   
 
 ## References
 
