@@ -1,9 +1,9 @@
 
 cd ../../..
 
-cd src/tasks/402000-CopyAssignmentOperator
+cd src/tasks/402000-CopyAssignmentDefault
 
-cd src/apps/402000-CopyAssignmentOperator
+cd src/apps/402000-CopyAssignmentDefault
 
 start .
 
