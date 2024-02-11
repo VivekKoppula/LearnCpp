@@ -12,7 +12,7 @@ public:
     Point() = default;
     Point(double x ,double y);
     Point(const Point& p); // Copy constructor
-    //Point(const Number& n); // Constructor from Number
+    Point(const Number& n); // Constructor from Number
     ~Point() = default;
     
     

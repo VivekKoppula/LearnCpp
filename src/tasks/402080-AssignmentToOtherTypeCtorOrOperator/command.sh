@@ -1,9 +1,9 @@
 
 cd ../../..
 
-cd src/tasks/402080-TypeConversionsRecap
+cd src/tasks/402080-AssignmentToOtherTypeCtorOrOperator
 
-cd src/apps/402080-TypeConversionsRecap
+cd src/apps/402080-AssignmentToOtherTypeCtorOrOperator
 
 start .
 
