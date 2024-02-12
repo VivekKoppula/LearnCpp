@@ -1,9 +1,9 @@
 
 cd ../../..
 
-cd src/tasks/402120-Functors
+cd src/tasks/402120-FunctorsIntro
 
-cd src/apps/402120-Functors
+cd src/apps/402120-FunctorsIntro
 
 start .
 
