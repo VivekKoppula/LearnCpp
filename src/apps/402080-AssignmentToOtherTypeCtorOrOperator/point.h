@@ -12,7 +12,7 @@ class Point
 public:
     Point() = default;
     Point(double x, double y);
-    Point(const Number &n); // Constructor from Number
+    // Point(const Number &n); // Constructor from Number
     ~Point() = default;
 
     void operator=(const Number &n); // Copy assignment operator for Number
