@@ -17,9 +17,5 @@ int main(int argc, char **argv)
     //  .(2) Constructor taking in a Number
     //  .(3) Type conversion operator : Number -> Point
 
-    // do_something_with_point(n1);
-    // .(1) Constructor
-    // .(2) Type conversion operator
-
     return 0;
 }

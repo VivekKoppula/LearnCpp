@@ -5,13 +5,6 @@
 class Point;
 class Number
 {
-    // friend std::ostream &operator<<(std::ostream &out, const Number &number);
-    // Arithmetic operators
-    //  friend Number operator+(const Number& left_operand, const Number& right_operand);
-    //  friend Number operator-(const Number& left_operand, const Number& right_operand);
-    //  friend Number operator*(const Number& left_operand, const Number& right_operand);
-    //  friend Number operator/(const Number& left_operand, const Number& right_operand);
-    //  friend Number operator%(const Number& left_operand, const Number& right_operand);
 
 public:
     Number() = default;

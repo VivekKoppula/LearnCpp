@@ -12,21 +12,8 @@ class Point
 public:
     Point() = default;
     Point(double x, double y);
-    //  Point(const Point &p);  // Copy constructor
     Point(const Number &n); // Constructor from Number
     ~Point() = default;
-
-    // Copy assignment operator
-    // Point &operator=(const Point &right_operand)
-    // {
-    //     std::cout << "Copy assignment operator called" << std::endl;
-    //     if (this != &right_operand)
-    //     {
-    //         m_x = right_operand.m_x;
-    //         m_y = right_operand.m_y;
-    //     }
-    //     return *this;
-    // }
 
     void operator=(const Number &n); // Copy assignment operator for Number
 
