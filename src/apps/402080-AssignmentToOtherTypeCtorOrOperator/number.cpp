@@ -11,29 +11,29 @@ Number::operator Point() const{
                             static_cast<double>(m_wrapped_int));
 }
 
-std::ostream& operator<<(std::ostream& out , const Number& number){
-    out << "Number : [" << number.m_wrapped_int << "]";
-    return out;
-}
+// std::ostream& operator<<(std::ostream& out , const Number& number){
+//     out << "Number : [" << number.m_wrapped_int << "]";
+//     return out;
+// }
 
 //Operators done as non member functions to take advantage of 
 //implicit conversions
-Number operator+(const Number& left_operand, const Number& right_operand){
- return Number(left_operand.m_wrapped_int + right_operand.m_wrapped_int);    
-}
-Number operator-(const Number& left_operand, const Number& right_operand){
- return Number(left_operand.m_wrapped_int - right_operand.m_wrapped_int);    
-}
-Number operator*(const Number& left_operand, const Number& right_operand){
- return Number(left_operand.m_wrapped_int * right_operand.m_wrapped_int);    
-}
-Number operator/(const Number& left_operand, const Number& right_operand){
- return Number(left_operand.m_wrapped_int / right_operand.m_wrapped_int);    
-}
-Number operator%(const Number& left_operand, const Number& right_operand){
- return Number(left_operand.m_wrapped_int % right_operand.m_wrapped_int);    
+// Number operator+(const Number& left_operand, const Number& right_operand){
+//  return Number(left_operand.m_wrapped_int + right_operand.m_wrapped_int);    
+// }
+// Number operator-(const Number& left_operand, const Number& right_operand){
+//  return Number(left_operand.m_wrapped_int - right_operand.m_wrapped_int);    
+// }
+// Number operator*(const Number& left_operand, const Number& right_operand){
+//  return Number(left_operand.m_wrapped_int * right_operand.m_wrapped_int);    
+// }
+// Number operator/(const Number& left_operand, const Number& right_operand){
+//  return Number(left_operand.m_wrapped_int / right_operand.m_wrapped_int);    
+// }
+// Number operator%(const Number& left_operand, const Number& right_operand){
+//  return Number(left_operand.m_wrapped_int % right_operand.m_wrapped_int);    
     
-}
+// }
 
 Number::~Number()
 {
