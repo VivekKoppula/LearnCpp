@@ -12,6 +12,7 @@ p1 = n1;
 ```
 
 2. When we are assigning(`p1 = n1;`), there are three options the compiler can choose. 
+
 3. They are options because, you can comment two of the following three options and the third one will be invoked. 
 
 4. Option 1
