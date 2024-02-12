@@ -15,7 +15,20 @@ p1 = n1;
 
 3. They are options because, you can comment two of the following three options and the third one will be invoked. 
 
-4. Option 2
+4. Option 1
+```cpp
+// point.h
+void operator=(const Number &n); // Copy assignment operator for Number
+
+// point.cpp
+void Point::operator=(const Number &n)
+{
+    std::cout << "Option 1: Point Copy assignment operator from Number called..." << std::endl;
+    m_x = m_y = n.get_wrapped_int();
+}
+```
+
+5. Option 2
 ```cpp
 // point.h
 Point(const Number &n); // Constructor from Number
@@ -28,18 +41,7 @@ Point::Point(const Number &n)
 }
 ```
 
-5. Option 1
-```cpp
-// point.h
-void operator=(const Number &n); // Copy assignment operator for Number
 
-// point.cpp
-void Point::operator=(const Number &n)
-{
-    std::cout << "Option 1: Point Copy assignment operator from Number called..." << std::endl;
-    m_x = m_y = n.get_wrapped_int();
-}
-```
 
 6. Option 3
 ```cpp
