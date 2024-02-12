@@ -15,7 +15,7 @@ p1 = n1;
 
 3. They are options because, you can comment two of the following three options and the third one will be invoked. 
 
-4. Option 1
+4. Option 2
 ```cpp
 // point.h
 Point(const Number &n); // Constructor from Number
@@ -23,12 +23,12 @@ Point(const Number &n); // Constructor from Number
 // point.cpp
 Point::Point(const Number &n)
 {
-    std::cout << "Option 1: Point Constructor from Number called..." << std::endl;
+    std::cout << "Option 2: Point Constructor from Number called..." << std::endl;
     m_x = m_y = n.get_wrapped_int();
 }
 ```
 
-5. Option 2
+5. Option 1
 ```cpp
 // point.h
 void operator=(const Number &n); // Copy assignment operator for Number
@@ -36,7 +36,7 @@ void operator=(const Number &n); // Copy assignment operator for Number
 // point.cpp
 void Point::operator=(const Number &n)
 {
-    std::cout << "Option 2: Point Copy assignment operator from Number called..." << std::endl;
+    std::cout << "Option 1: Point Copy assignment operator from Number called..." << std::endl;
     m_x = m_y = n.get_wrapped_int();
 }
 ```
@@ -55,13 +55,15 @@ Number::operator Point() const
 }
 ```
 
-When we have option 1 and option 2, option 2 is choosen by the compiler.
+When we have option 1 and option 2, option 1 is choosen by the compiler.
 
-When we have option 3 and option 2, option 2 is choosen by the compiler.
+When we have option 3 and option 1, option 1 is choosen by the compiler.
 
 When we have option 3 and option 1, option 1 is choosen by the compiler.
 
 So option 3 is last, only when option 1 and 2 does not exist.
+
+And when all the three are present, then option 1 is choosen by the ctor.
 
 ## References
 
