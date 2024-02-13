@@ -1,9 +1,9 @@
 
 cd ../../..
 
-cd src/tasks/404440-Rel_OpsNamespace
+cd src/tasks/404440-RelOpsNamespace
 
-cd src/apps/404440-Rel_OpsNamespace
+cd src/apps/404440-RelOpsNamespace
 
 start .
 
