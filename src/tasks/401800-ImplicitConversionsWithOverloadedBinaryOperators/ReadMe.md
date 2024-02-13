@@ -1,7 +1,7 @@
 # Auto
 
 ## Notes
-1. When a binary operator(which takes 2 operands) is implemented as a member function, the left operand is never implicitly converted. 
+1. When a `binary operator`(which takes 2 operands) is implemented as a member function, the left operand is never implicitly converted. 
 
 2. So when we have the following,
 
