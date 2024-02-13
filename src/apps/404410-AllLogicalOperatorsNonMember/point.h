@@ -17,15 +17,6 @@ public:
 		m_x(x), m_y(y){
 	}
 	~Point() = default;
-	//Operators
-    /*
-    bool operator> (const Point& other) const;
-    bool operator< (const Point& other) const;
-    bool operator>=(const Point& other) const;
-    bool operator<=(const Point& other) const;
-    bool operator==(const Point& other) const;
-    bool operator!=(const Point& other) const;
-    */
   
 private: 
 	double length() const;   // Function to calculate distance from the point(0,0)
