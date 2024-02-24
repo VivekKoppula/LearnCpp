@@ -21,9 +21,12 @@ public:
 std::cout << "15 < n2 : " << (15 < n2) << std::endl;
 ```
 
+![Not Working](50_50_NotWorking.jpg)
+
 6. So we need logical operators. 
 
-7. Can std::rel_ops namesspace help? The answer is no. This is because the parameter data types are different on both sides of the operator. The first parameter is an int and the second is Number.
+7. Can std::rel_ops namespace help? The answer is no. This is because the parameter data types are different on both sides of the operator. The first parameter is an int and the second is Number.
+
 
 
 ## References
