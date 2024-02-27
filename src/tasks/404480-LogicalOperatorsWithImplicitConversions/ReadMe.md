@@ -25,6 +25,8 @@ std::cout << "15 < n2 : " << (15 < n2) << std::endl;
 
 7. Can std::rel_ops namesspace help? The answer is no. This is because the parameter data types are different on both sides of the operator. The first parameter is an int and the second is Number.
 
+8. So here we have three overloads for each operator, for each of comparision to work. 
+
 
 ## References
 

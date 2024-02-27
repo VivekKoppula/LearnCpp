@@ -15,7 +15,7 @@ public:
 	explicit Number(int value );
 ```
 
-5. So when we have the following, the int 15 will not be implicitly converted to number, because the ctor is marked explicit(above).
+5. So when we have the following, the int 15 will not be implicitly converted to number, because the ctor is marked explicit(above). The first operand is just a literal. Since the ctor is made to be explicit(see above), 15 cannot be converted into a number. So the following does not work.
 
 ```cpp
 std::cout << "15 < n2 : " << (15 < n2) << std::endl;
