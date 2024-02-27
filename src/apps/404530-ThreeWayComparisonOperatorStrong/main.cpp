@@ -4,16 +4,11 @@
 
 int main()
 {
-
-  std::string m1{"Hello"};
-  std::string m2{"World"}; // World comes after Hello in alphabetical order so it's
-                           // considered to be greater.
-
   // Three way comparison operator : spaceship operator <=>
 
   int n1{5};
   int n2{5};
-  // int n3{0};
+  int n3{0};
 
   auto result = (n1 <=> n2);
 
