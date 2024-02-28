@@ -1,9 +1,9 @@
 
 cd ../../..
 
-cd src/tasks/404525-ThreeWayComparisonOperatorStrong
+cd src/tasks/404530-ThreeWayComparisonOperatorStrong
 
-cd src/apps/404525-ThreeWayComparisonOperatorStrong
+cd src/apps/404530-ThreeWayComparisonOperatorStrong
 
 start .
 
@@ -16,7 +16,7 @@ dir
 g++ --version
 
 # -o flag means, compile as well as link.
-g++ "-static" -o main.exe .\*.cpp
+g++ "-static" -o main.exe .\*.cpp -std=c++20
 
 dir
 

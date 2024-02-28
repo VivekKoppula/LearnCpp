@@ -29,6 +29,13 @@
 
 11. The <=> operator will m ostly be set up as a member function, and the compiler will put in the magic necessary to make generated comparisioin operators work with implicit conversions as much as possible.
 
+12. Here we should use `-std=c++20` additionally for the g++ compiler command.
+
+```cpp
+g++ "-static" -o main.exe .\*.cpp -std=c++20
+```
+
+
 ## References
 
 1. https://en.cppreference.com/w/cpp/utility/compare/strong_ordering

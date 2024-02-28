@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <limits>
+#include <compare>
 
 int main()
 {
@@ -28,6 +29,11 @@ int main()
 
   double d1{33.9};
   double d2{std::numeric_limits<double>::quiet_NaN()};
+
+  auto result1 = (d1 <=> d2);
+
+  std::cout << "typeid(result1).name() - (d1 <=> d2) - : " << typeid(result1).name() << std::endl;
+  // std::cout << "result1 - (d1 <=> d2) - : " << result1 << std::endl; // This gives error.
 
   std::cout << std::boolalpha;
   std::cout << "d1 > d2 : " << (d1 > d2) << std::endl;   // false

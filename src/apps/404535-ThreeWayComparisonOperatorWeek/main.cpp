@@ -5,10 +5,6 @@
 int main()
 {
 
-  std::string m1{"Hello"};
-  std::string m2{"World"}; // World comes after Hello in alphabetical order so it's
-                           // considered to be greater.
-
   // Three way comparison operator : spaceship operator <=>
 
   int n1{5};
@@ -16,6 +12,10 @@ int main()
   // int n3{0};
 
   auto result = (n1 <=> n2);
+
+  std::cout << "typeid(result).name() - (n1 <=> n3) - : " << typeid(result).name() << std::endl;
+
+  // std::cout << "result - (n1 <=> n2) - : " << result << std::endl; // This gives error
 
   std::cout << std::boolalpha;
   std::cout << "n1 > n2 : " << ((n1 <=> n2) > 0) << std::endl; // true

@@ -1,9 +1,9 @@
 
 cd ../../..
 
-cd src/tasks/404535-ThreeWayComparisonOperatorPartial
+cd src/tasks/404540-ThreeWayComparisonOperatorPartial
 
-cd src/apps/404535-ThreeWayComparisonOperatorPartial
+cd src/apps/404540-ThreeWayComparisonOperatorPartial
 
 start .
 
