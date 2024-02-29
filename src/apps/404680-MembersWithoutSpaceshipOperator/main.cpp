@@ -72,8 +72,6 @@ int main(){
     auto result6 = ( (i1 <=> i2) <= 0); // A possible option for the compiler magic
     std::cout << " i1 <= i2 : " << result6 << std::endl;
 
- 
-
 
     //Implicit conversions
     auto result7 = (i1 > 20);
