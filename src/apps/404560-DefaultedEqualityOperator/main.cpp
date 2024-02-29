@@ -10,10 +10,10 @@ public:
     // Equality, default : member wise comparison for equality
     bool operator==(const Item &right_operand) const = default;
 
-    bool operator!=(const Item &right_operand) const
-    {
-        return !(*this == right_operand);
-    }
+    // bool operator!=(const Item &right_operand) const
+    // {
+    //     return !(*this == right_operand);
+    // }
 
 private:
     int a{1};
