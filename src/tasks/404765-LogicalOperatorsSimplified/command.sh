@@ -1,9 +1,9 @@
 
 cd ../../..
 
-cd src/tasks/404760-LogicalOperatorsSimplified
+cd src/tasks/404765-LogicalOperatorsSimplified
 
-cd src/apps/404760-LogicalOperatorsSimplified
+cd src/apps/404765-LogicalOperatorsSimplified
 
 start .
 
