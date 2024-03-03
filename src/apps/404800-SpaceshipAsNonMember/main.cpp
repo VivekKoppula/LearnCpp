@@ -10,7 +10,7 @@ public:
     // Type conversion operator from Number to Point
     operator Number() const
     {
-        std::cout << "Converting : " << m_x << std::endl;
+        std::cout << "Converting Point [ x : " << m_x << ", y: " << m_y << "] to number " << m_x << std::endl;
         return Number(static_cast<int>(m_x));
     }
 
