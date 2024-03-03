@@ -5,7 +5,7 @@
 class Number
 {
 
-    // friend std::ostream &operator<<(std::ostream &out, const Number &number);
+    friend std::ostream &operator<<(std::ostream &out, const Number &number);
 
     // Comparison operators
 
