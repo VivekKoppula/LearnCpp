@@ -25,8 +25,8 @@ public:
 
     bool operator==(const ComparableString &right_side) const
     {
-        std::cout << std::endl;
-        std::cout << "From Equals Equals operator: " << std::endl;
+        // std::cout << "From Equals Equals operator: " << std::endl;
+        std::cout << "From Equals Equals operator: ";
         return (m_str.size() == right_side.m_str.size());
     }
 
@@ -38,10 +38,13 @@ int main()
 {
 
     ComparableString cmp_str1("Fog");
+
     ComparableString cmp_str2("Dogy");
 
     std::cout << std::boolalpha;
+
     std::cout << "cmp_str1 > cmp_str2 : " << (cmp_str1 > cmp_str2) << std::endl;
+
     std::cout << "cmp_str1 < cmp_str2 : " << (cmp_str1 < cmp_str2) << std::endl;
 
     std::cout << "cmp_str1 == cmp_str2 : " << (cmp_str1 == cmp_str2) << std::endl;
